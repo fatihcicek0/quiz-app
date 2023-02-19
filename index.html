@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .card{
+      margin-left: 60px;
+    } button{
+      width: 100px;
+      color:white;
+      background-color: blue;
+      border: solid 1px lightgray; 
+      padding:15px;
+      border-radius: 5px;
+    }#progress{
+      color:lightgray;
+      padding:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-header">
+          Quiz
+        </div>
+        <div class="card-body">
+          <h5 id="question"> question text</h5>
+          <hr>
+          <div id="buttons">
+            <button id="btn0"><span id="choice0">choice0</span></button>
+            <button id="btn1"><span id="choice1">choice1</span></button>
+            <button id="btn2"><span id="choice2">choice2</span></button>
+            <button id="btn3"><span id="choice3">choice3</span></button>
+        
+          </div>
+        </div>
+        <div id="progress" class="card-footer">
+          
+        </div>
+      </div> 
+    </div>    
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
